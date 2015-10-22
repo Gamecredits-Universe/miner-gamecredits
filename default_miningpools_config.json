@@ -1,0 +1,135 @@
+{
+    "version": {
+        "min_version": "1.15.0.0",
+        "max_version": "1.16.10.0",
+        "update_uri": "ms-windows-store:Updates"
+    },
+    "main_page": {
+        "links": [
+            {
+                "text": "GameCredits exchange rates",
+                "href": "https://www.coingecko.com/en/price_charts/gamecredits/usd"
+            },
+            {
+                "text": "Buy and sell GameCredits",
+                "href": "https://www.cryptsy.com/"
+            },
+            {
+                "text": "What is GameCredits?",
+                "href": "http://gamecredits.net/"
+            }
+        ]
+    },
+    "Gamecredits": {
+        "mining_pools": {
+            "biomechs": {
+                "display_name": "Biomech's GameCredits Pool",
+                "url_list": [
+                    "stratum+tcp://gmc.cryptocloudhosting.org:3333/"
+                ],
+                "username_format": "u.w",
+                "proof_of_work": "scrypt_1",
+                "website_url": "http://gmc.cryptocloudhosting.org/GMC/public/index.php",
+                "website_url1": "http://gmc.cryptocloudhosting.org/GMC/public/index.php,
+                "share_weight": 0,
+                "hidden": true,
+                "sequence": 8
+            },
+            "acidpool": {
+                "display_name": "Acidpool",
+                "url_list": [
+                    "stratum+tcp://gmc.acidpool.com:3342/"
+                ],
+                "username_format": "u.w",
+                "min_password_length": 0,
+                "proof_of_work": "scrypt_1",
+                "website_url": "http://gmc.acidpool.com/index.php",
+                "share_weight": 0,
+                "sequence": 7
+            },
+            "smarterhash": {
+                "display_name": "Smarterhash",
+                "url_list": [
+                    "stratum+tcp://eu.smarterhash.com:8652"/,
+					"stratum+tcp://us.smarterhash.com:8653/"
+                ],
+                "username_format": "u.w",
+                "proof_of_work": "scrypt_1",
+                "website_url": "http://gmc.smarterhash.com/index.php?page=home",
+                "share_weight": 1,
+                "sequence": 6
+            },
+            "scryptpool": {
+                "display_name": "Give Me Coins Scryptpool GMC",
+                "url_list": [
+                    "stratum+tcp://stratum.scryptpool.com:3037/"
+                ],
+                "username_format": "u.w",
+                "min_password_length": 0,
+                "proof_of_work": "scrypt_1",
+                "website_url": "https://www.scryptpool.com/pool/GMC",
+                "share_weight": 0,
+                "sequence": 5
+            },
+            "suprnova.cc": {
+                "display_name": "Suprnova GMC 0 % Fee",
+                "url_list": [
+                    "stratum+tcp://gmc.suprnova.cc:7351/"
+                ],
+                "username_format": "u.w",
+                "min_password_length": 1,
+                "proof_of_work": "scrypt_1",
+                "website_url": "https://gmc.suprnova.cc/",
+                "share_weight": 0,
+                "sequence": 4
+            },
+            "hash-to-coins": {
+                "display_name": "Hash-to-Coins",
+                "url_list": [
+                    "stratum+tcp://hash-to-coins.com:3333/"
+                ],
+                "username_format": "u.w",
+                "min_password_length": 1,
+                "proof_of_work": "scrypt_1",
+                "website_url": "https://hash-to-coins.com/",
+                "share_weight": 0,
+                "sequence": 3
+            },
+            "Altminers": {
+                "display_name": "Altminers",
+                "url_list": [
+                    "stratum+tcp://stratum.altminers.com:3006/",
+                    "stratum+tcp://stratum.altminers.com:3007/"
+                ],
+                "username_format": "u.w",
+                "min_password_length": 1,
+                "proof_of_work": "scrypt_1",
+                "website_url": "http://altminers.com/",
+                "share_weight": 1,
+                "sequence": 2
+            },
+            "p2pool": {
+                "display_name": "p2pool",
+                "url_list": [ "stratum+tcp://p2pool.e-pool.net:8897/" ],
+                "username_format": "u.w",
+                "min_password_length": 1,
+                "proof_of_work": "scrypt_1",
+                "website_url": "http://p2pool.e-pool.net:8897/static/",
+                "share_weight": 0,
+                "sequence": 1
+            }
+        }
+    },
+    "mining_engine": {
+        "cpu_fg_factor": 0.9,
+        "cpu_bg_factor": 0.8,
+        "cpu_factor1": 1.0,
+        "cpu_factor2": 0.2,
+        "cpu_limit": null,
+        "gpu_fg_factor": 1.0,
+        "gpu_bg_factor": 1.0,
+        "gpu_factor1": 1.0,
+        "gpu_limit": null
+    },
+    "ttl": 0
+}
